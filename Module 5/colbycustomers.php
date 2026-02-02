@@ -44,7 +44,7 @@
       }
   }
 
-  echo($newLine . "Wrestlers Older Than 35:" . $newLine);
+  echo($newLine . "Wrestlers age:" . $newLine);
 # age search
   for($x = 0; $x < $arrlength; $x++) {
       if($customers[$x]["age"] > 35){
@@ -54,7 +54,7 @@
       }
   }
 
-  echo($newLine . "Search by Phone Number: 111-2004" . $newLine);
+  echo($newLine . "Search by Phone Number: " . $newLine);
 
   # phone number search
   for($x = 0; $x < $arrlength; $x++) {
