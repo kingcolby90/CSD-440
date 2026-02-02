@@ -44,7 +44,7 @@
       }
   }
 
-  echo($newLine . "Wrestlers age:" . $newLine);
+  echo($newLine . "Search any Wrestlers age:" . $newLine);
 # age search
   for($x = 0; $x < $arrlength; $x++) {
       if($customers[$x]["age"] > 35){
